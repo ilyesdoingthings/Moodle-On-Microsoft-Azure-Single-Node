@@ -1,7 +1,6 @@
 # Moodle On Azure Deployment Guide
 ## Microsoft Education for North Africa and Middle East - Tunisia Model
 
-![image](https://user-images.githubusercontent.com/26825056/200173070-4de1aba6-4586-4a82-a3c5-d225859ac645.png)
 
 ## Introduction 
 
