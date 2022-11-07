@@ -1,5 +1,5 @@
-# Moodle on Azure Deployment Guide ( Single instance Node ) 🥇
-## Microsoft Education for North Africa and Middle East - Tunisian Model 🚩
+# Moodle on Azure Deployment Guide ( Single instance Node ) 
+## Microsoft Education for North Africa and Middle East - Tunisian Model 
 
 ![image](https://user-images.githubusercontent.com/26825056/200283591-423619fe-2d49-42a1-b25e-b7a9429e4cde.png)
 
@@ -101,4 +101,24 @@ sudo chmod -R 0777 /var/moodledata
  
  ## Set Up the MySQL Server for Moodle Instance 
  
+ 1. Open the MySQL interface as the root user.
  
+ ```
+ sudo mysql -u root
+ ```
+2. Use the following MySQL command to create a database for Moodle.
+
+```
+CREATE DATABASE moodle DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+3. Create a Moodle MySQL user, and give it the required permissions on the Moodle database. In the following example, replace moodle-user and password with the username and password, respectively, you would like to use for the Moodle MySQL user.
+
+```
+CREATE USER 'moodle-user'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTER ON moodle.* TO 'moodle-user'@'localhost';
+```
+
+4. Exit the MySQL interface using the quit command.
+
+## 
