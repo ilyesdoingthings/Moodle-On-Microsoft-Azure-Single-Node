@@ -3,6 +3,20 @@
 
 ![image](https://user-images.githubusercontent.com/26825056/200283591-423619fe-2d49-42a1-b25e-b7a9429e4cde.png)
 
+## Prerequisites
+
+In order to deploy, customize and consume this solution, it is important you have good understanding of Azure Resource Manager (ARM) templates.
+you can visit this URL to read about https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
+
+## Provisioning a Scalable Moodle Cluster on Azure 
+
+If you have Azure account, you can deploy Moodle via the Azure portal using the button below, or you can deploy Moodle via the CLI. Please note that while you can use an Azure free account to get started depending on which template configuration you choose you will likely be required to upgrade to a paid account.
+
+Below is a list of pre-defined deployment options based on typical deployment scenarios (i.e. dev/test, production etc.). All configurations are fixed, and you just need to pass your ssh public key to the template for logging in to the deployed VMs. For production deployments, large size or Maximum template below is highly recommended which provisions high performance SKUs and configures the environment for high availability.
+
+to read more, you can visit 
+
+
 ## Introduction 👇
 
 Moodle is one of the most popular open source learning management platform empowering educators and researchers across the world to disseminate their work efficiently. It is also one of the most matured and robust OSS application which is developed and improvised by the community over the years. We have seen customers deploying Moodle in Azure from small, medium and large enterprises to schools, public sector and government organizations. 
