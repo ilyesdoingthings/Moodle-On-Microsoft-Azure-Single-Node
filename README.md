@@ -21,10 +21,13 @@ Offered under Microsoft Standard Contract.
 
 This app is only available in Spanish. Moodle is the most widely used learning platform in the world. Start building your online training site in minutes. This image can be deployed on kubernetes, we recommend using Azure Kubernetes Services, although it is compatible with other Kubernetes cloud services. To configure Moodle you will need a Database Server, you can use an Azure Database Server. Easy and intuitive navigation Moodle 4.0 introduces a new design language, visual styling and is responsive and consistent between devices. The new navigation hierarchy is simplified and shows what is contextually relevant. Access to the most commonly used items is delivered through tabbed navigation, which is consistent sitewide. These improvements reduce cognitive load and allow educators and learners to easily find what they want, when they need it. Instructions to start the configuration of the Moodle platform : 1.Got to your browser and type your URL: "http://your-vm-ip/moodle" 2. The image contains the following software: * Moodle 4.0 * PHP 7.4 * Apache 2.4 * Ubuntu Server LTS 20.04 If you have any questions or need more information about the content of this Virtual Machine, please visit our website: http://readymindsitewp.azurewebsites.net/get-started/moodle-ready
 
-![image](https://user-images.githubusercontent.com/26825056/200260724-bb315e58-3979-4861-a900-31d0075e3aa7.png)
+![image](https://user-images.githubusercontent.com/26825056/200260974-f80e33f0-8e1b-4c00-ba43-cbb518ea863d.png)
+![image](https://user-images.githubusercontent.com/26825056/200261796-70373319-370b-40eb-b31e-a48e993e4de3.png)
 
 ## Install the Prerequisites for Moodle 
 
 Install the prerequisites for Moodle. This includes software and PHP modules that support Moodle’s features and Git for installing Moodle and keeping it up to date.
 
-
+```
+sudo apt install graphviz aspell ghostscript clamav php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring git
+```
