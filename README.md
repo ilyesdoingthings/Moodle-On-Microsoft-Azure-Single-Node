@@ -42,9 +42,27 @@ Instructions to start the configuration of the Moodle platform :
 
 ## Install the Prerequisites for Moodle 
 
-Install the prerequisites for Moodle. This includes software and PHP modules that support Moodle’s features and Git for installing Moodle and keeping it up to date.
+1. Install the prerequisites for Moodle. This includes software and PHP modules that support Moodle’s features and Git for installing Moodle and keeping it up to date.
 
 ```
 sudo apt install graphviz aspell ghostscript clamav php7.4-pspell php7.4-curl php7.4-gd php7.4-intl php7.4-mysql php7.4-xml php7.4-xmlrpc php7.4-ldap php7.4-zip php7.4-soap php7.4-mbstring git
 ```
+
+2. Restart Apache to load the modules.
+
+```
+sudo systemctl restart apache2
+```
+
+## Download Moodle Package 
+
+1. Change into the /opt directory, clone the Moodle Git repository and change into the resulting moodle subdirectory.
+
+```
+cd /opt
+sudo git clone git://git.moodle.org/moodle.git
+cd moodle
+```
+
+
 
