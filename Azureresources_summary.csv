@@ -1,0 +1,7 @@
+﻿VALUE,TYPE,COUNT,
+"Disk","Disk","1"
+"Network Interface","Network Interface","1"
+"Network security group","Network security group","1"
+"Public IP address","Public IP address","1"
+"Virtual machine","Virtual machine","1"
+"Virtual network","Virtual network","1"
