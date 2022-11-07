@@ -64,5 +64,29 @@ sudo git clone git://git.moodle.org/moodle.git
 cd moodle
 ```
 
+2. Determine the latest stable Moodle release from Moodle’s official list of releases. At the time of writing, the latest stable release is 4.0.
+
+3. The following command lists the branches in the Git repository. From that list, identify the branch associated with the latest stable release. For release 4.0, this is MOODLE_400_STABLE.
+
+```
+sudo git branch -a
+```
+
+![image](https://user-images.githubusercontent.com/26825056/200318904-fed98e99-3835-42ab-b92f-16230e928046.png)
 
 
+4. Track and then check out the branch you identified.
+
+```
+sudo git branch --track MOODLE_400_STABLE origin/MOODLE_400_STABLE
+sudo git checkout MOODLE_400_STABLE
+```
+
+![image](https://user-images.githubusercontent.com/26825056/200319648-fb7f00c9-7a29-4635-bf13-7ac1d5eb4db9.png)
+
+5. Copy the directory with the Moodle repository into the /var/www/html directory. Then, modify the new Moodle directory’s permissions to grant read, execute, and write access to any user.
+
+```
+sudo cp -R /opt/moodle /var/www/html/
+ sudo chmod -R 0777 /var/www/html/moodle
+```
