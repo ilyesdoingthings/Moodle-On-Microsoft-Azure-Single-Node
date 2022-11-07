@@ -90,3 +90,15 @@ sudo git checkout MOODLE_400_STABLE
 sudo cp -R /opt/moodle /var/www/html/
  sudo chmod -R 0777 /var/www/html/moodle
 ```
+
+6. Create a /var/moodledata directory, make www-data its owner, and modify its permissions to grant all users read, execute, and write access.
+
+```
+sudo mkdir /var/moodledata
+sudo chown -R www-data /var/moodledata
+sudo chmod -R 0777 /var/moodledata
+ ```
+ 
+ ## Set Up the MySQL Server for Moodle Instance 
+ 
+ 
