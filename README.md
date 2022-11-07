@@ -1,6 +1,7 @@
 # Moodle On Azure Deployment Guide ( Single instance Node ) 
 ## Microsoft Education for North Africa and Middle East - Tunisian Model 🚩
 
+![image](https://user-images.githubusercontent.com/26825056/200259920-b033fa29-e1bc-4f44-95e3-6ad4c114bd0d.png)
 
 ## Introduction 
 
