@@ -145,7 +145,7 @@ sudo chmod -R 0755 /var/www/html/moodle
 
 You are now ready to start using Moodle. To get started, take a look at Moodle’s Admin quick guide, which shows you how to start customizing the look of your site and how to add users and courses. Then, review the Teacher quick guide for a walkthrough on how you can manage a course. From there, check out the rest of Moodle’s documentation library for guides on the many ways you can customize your site and for instructions on getting the most out of it.
 
-Moodle Admin Quick Guide = https://docs.moodle.org/310/en/Admin_quick_guide
-Teacher Quick Guide = https://docs.moodle.org/310/en/Teacher_quick_guide
-Documentation Library = https://docs.moodle.org/310/en/Main_page
+Moodle Admin Quick Guide = https://docs.moodle.org/310/en/Admin_quick_guide <br>
+Teacher Quick Guide = https://docs.moodle.org/310/en/Teacher_quick_guide <br>
+Documentation Library = https://docs.moodle.org/310/en/Main_page <br>
 
