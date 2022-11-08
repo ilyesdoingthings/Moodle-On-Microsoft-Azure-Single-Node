@@ -121,7 +121,7 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTE
 
 4. Exit the MySQL interface using the quit command.
 
-![image](https://user-images.githubusercontent.com/26825056/200354340-996ab204-2a36-452f-bda7-570eafda6c8d.png)
+![dzzdzdzdzdzdzdz](https://user-images.githubusercontent.com/26825056/200581760-c0350929-14c7-4e3b-aa56-c404763c44b9.png)
 
 ## Complete the Moodle Installation 
 
