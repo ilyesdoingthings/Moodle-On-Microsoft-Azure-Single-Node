@@ -124,3 +124,9 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTE
 ![image](https://user-images.githubusercontent.com/26825056/200354340-996ab204-2a36-452f-bda7-570eafda6c8d.png)
 
 ## Complete the Moodle Installation 
+
+1. In a web browser, navigate to the Moodle URL, which is your server’s domain name followed by /moodle. So, if your server’s domain name is example.com, then the Moodle URL would be example.com/moodle.
+
+![image](https://user-images.githubusercontent.com/26825056/200580493-21554fbf-1bcb-438e-856e-95d9e59073c2.png)
+
+2. Follow the prompts to complete the Moodle setup.
