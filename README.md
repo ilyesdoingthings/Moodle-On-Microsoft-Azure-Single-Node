@@ -136,3 +136,10 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTE
 4. Complete the form for creating a Moodle site administrator and, on the next page, complete the form with information about your Moodle site.
 
 5. Return to your server’s command line, and modify the Moodle directory’s permissions to prevent writing except by the directory owner (the root user):
+
+```
+sudo chmod -R 0755 /var/www/html/moodle
+```
+
+![image](https://user-images.githubusercontent.com/26825056/200585740-00489669-249c-42ef-a4f2-54e2f6669e99.png)
+
