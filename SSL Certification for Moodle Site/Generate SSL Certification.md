@@ -1,5 +1,7 @@
 # Set Up an SSL Certificate
 
+![image](https://user-images.githubusercontent.com/26825056/200593974-b145f98c-88a9-417d-9f44-0047a9feb859.png)
+
 Although not required, it is recommended that you secure your Moodle site using an SSL certificate. 
 
 This guide uses Certbot to create a free certificate from Let’s Encrypt.
