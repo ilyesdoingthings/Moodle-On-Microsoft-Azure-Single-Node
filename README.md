@@ -131,4 +131,8 @@ GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,CREATE TEMPORARY TABLES,DROP,INDEX,ALTE
 
 2. Follow the prompts to complete the Moodle setup.
 
+3. Review the release information, ensure that no issues are indicated, and continue. Allow the next page to load fully — it may take some time — and ensure that all of the components listed indicate “Success”. Then, continue.
 
+4. Complete the form for creating a Moodle site administrator and, on the next page, complete the form with information about your Moodle site.
+
+5. Return to your server’s command line, and modify the Moodle directory’s permissions to prevent writing except by the directory owner (the root user):
