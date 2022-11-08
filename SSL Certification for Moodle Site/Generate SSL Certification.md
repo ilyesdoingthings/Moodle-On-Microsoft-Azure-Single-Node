@@ -42,7 +42,7 @@ sudo certbot --apache
 
 5. Using your preferred text editor, open the Moodle configuration file, /var/www/html/moodle/config.php. Change the $CFG->wwwroot value to use https instead of http. Replace example.com in the following example with your site’s domain name.
 
-![image](https://user-images.githubusercontent.com/26825056/200598865-42834c5a-bb85-44b2-a9ba-2578421380b5.png)
+![image](https://user-images.githubusercontent.com/26825056/200600010-4ddadff8-4f4b-410e-8d8c-9eb4c9d9eb25.png)
 
 6. Restart the Apache server.
 
